@@ -1,0 +1,18 @@
+{
+    "watch": true,
+    "ignore_watch": [
+        "node_modules",
+        "public",
+        "uploads"
+    ],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "name": "Sequelize",
+    "script": "./bin/www",
+    "exec_mode": "fork",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
